@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Hana's Birthday</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="birthday.mp3">
+</audio>
+
+<div class="book">
+
+
+  <div class="page front">
+
+    <h1>Happy Hana's day!!</h1>
+
+    <div class="scrap">
+
+      <img src="photo1.jpg" class="photo left">
+      <img src="photo2.jpg" class="photo right">
+
+      <img src="bunny.png" class="sticker flower">
+      <img src="bow.png" class="sticker bow">
+
+      <p class="letter">
+      helo Hana  
+
+      hôm nay là ngày tuyệt vời khi vào 18+2 năm trước  
+      một người xinh đẹp tuyệt vời (chị) được sinh ra.  
+
+      cảm ơn hana đã luôn cố gắng thật nhiều  
+      mong rằng lúc nào chị cũng thấy hạnh phúc!!
+      </p>
+
+      <div class="cake-box">
+        <img src="cake.gif" alt="cake">
+      </div>
+
+      <button onclick="openLetter()">mở thư</button>
+
+    
+      <div class="envelope-container hidden" id="envelope">
+        <div class="envelope">
+          <div class="flap"></div>
+          <div class="letter-inside">
+            <p id="typingText"></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <button onclick="goToPage2()">→ mở trang tiếp</button>
+
+  </div>
+
+  <div class="page back">
+
+    <h2> To our sweet Hana ✨</h2>
+
+    <textarea id="noteInput" placeholder="Viết gì đó để gửi Hana..."></textarea>
+    <button onclick="submitNote()">gửi 💌</button>
+
+    <div id="notesContainer"></div>
+    <button onclick="goBack()">← quay lại</button>
+  </div>
+
+</div>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
