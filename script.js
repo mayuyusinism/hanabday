@@ -8,7 +8,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 const firebaseConfig = {
   apiKey: "AIzaSyDKgN7yxndgUzkTxbpigmMmr_iPFXIzc0Y",
-  authDomain: "hana-sbday.firebaseapp.com",
+  authDomain: "mayuyusinism.github.io",
   projectId: "hana-sbday",
   storageBucket: "hana-sbday.firebasestorage.app",
   messagingSenderId: "137429702000",
